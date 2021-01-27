@@ -1,0 +1,19 @@
+{
+  "name": "unix-discord-bot-thingy",
+  "author": {
+    "name": "Relms",
+    "email": "relms@relms.dev"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
